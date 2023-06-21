@@ -2,6 +2,9 @@
 // popodłączać wszystko w edytorze Unity.
 // https://assetstore.unity.com/packages/tools/input-management/joystick-pack-107631#description
 
+// Przycisk do skakania został dodany oddzielnie, po przyciśnięciu wywołuje funkcję Skocz(), która
+// najpierw sprawdza czy obiekt jest na ziemi, żeby uniknąć zjawiska podwójnego skoku.
+
 using UnityEngine;
 
 public class TestJoystickMovement : MonoBehaviour {
