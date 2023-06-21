@@ -9,9 +9,6 @@ public class TestJoystickMovement : MonoBehaviour {
 
     [SerializeField] FixedJoystick _joystick;      // Reference to the joystick for movement
 
-    //TestJumpButton jumpButtonScript;
-    private bool jumpButtonPressed = false;
-
     Rigidbody rb;
 
     private void Awake() {
