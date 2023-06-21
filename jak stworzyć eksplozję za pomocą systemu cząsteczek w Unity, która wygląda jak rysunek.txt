@@ -1,0 +1,16 @@
+Oto instrukcje, jak stworzyć eksplozję za pomocą systemu cząsteczek w Unity, która wygląda jak rysunek, wraz z rozwinięciem każdego punktu:
+1. Zaczynając od domyślnego obiektu systemu cząsteczek:
+    1. W menu Unity wybierz GameObject > Effects > Particle System, aby utworzyć nowy obiekt systemu cząsteczek.
+    2. Zaznacz nowo utworzony obiekt systemu cząsteczek w hierarchii, aby wyświetlić jego właściwości w inspektorze.
+    3. Przejdź do modułu Shape w inspektorze.
+    4. Ustaw kształt emitera na małą sferę o promieniu około 0,5 jednostki, zmieniając wartość promienia w ustawieniach modułu Shape.
+2. Przejdź do modułu Renderer i wybierz materiał o wyglądzie rysunkowym dla systemu:
+    1. Zaznacz obiekt systemu cząsteczek w hierarchii, aby wyświetlić jego właściwości w inspektorze.
+    2. Przejdź do modułu Renderer w inspektorze.
+    3. Kliknij na pole Material, aby wyświetlić listę dostępnych materiałów.
+    4. Wybierz materiał o wyglądzie rysunkowym z listy dostępnych materiałów.
+3. Dostosuj inne właściwości cząsteczek, takie jak kolor i rozmiar, aby uzyskać pożądany efekt rysunkowy:
+    1. Zaznacz obiekt systemu cząsteczek w hierarchii, aby wyświetlić jego właściwości w inspektorze.
+    2. Przejdź do modułu Main w inspektorze.
+    3. Zmień właściwości Start Color i Start Size, aby dostosować kolor i rozmiar cząsteczek.
+    4. Możesz również przejść do innych modułów, takich jak Color over Lifetime i Size over Lifetime, aby dostosować kolor i rozmiar cząsteczek w czasie ich życia.
