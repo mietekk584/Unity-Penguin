@@ -1,5 +1,3 @@
-//write code in c# for unity. I need a class called TestJoystickMovement that would use a joystick on a touch screen and move a player like in the code below, but instead of arrows i need the code to use the joystick to move exacltly the same. I also need you to make comments in the code to each line. Once you've written the code I need you to tell me how to hook up everything in the unity editor so that it works. Here is the code to rewrite: 
-//"
 using UnityEngine;
 
 public class TestPlayerController : MonoBehaviour {
