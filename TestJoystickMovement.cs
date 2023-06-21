@@ -1,3 +1,7 @@
+// Należy zaimportować Joystick Pack, następnie po dodaniu skryptu do postaci
+// popodłączać wszystko w edytorze Unity.
+// https://assetstore.unity.com/packages/tools/input-management/joystick-pack-107631#description
+
 using UnityEngine;
 
 public class TestJoystickMovement : MonoBehaviour {
