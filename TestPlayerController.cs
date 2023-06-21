@@ -44,7 +44,6 @@ public class TestPlayerController : MonoBehaviour {
         }
     }
 }
-//"
 
 /*
 ChatGPT
